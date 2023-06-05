@@ -405,7 +405,7 @@ span.shortSapn {
 }
 
 .iframe-container iframe {
-  width: 80%;
+  width: 90%;
   height: 50vh;
 }
 
@@ -548,18 +548,13 @@ span.shortSapn {
     width: 95%;
     height: 50vh;
   }
-  .iframe-container {
-    width: 80% !important;
-  }
 }
 
 @media (min-width: 500px) {
   .bottomsliderImgCantainer {
     width: 335px;
   }
-  .iframe-container {
-    width: 0% !important;
-  }
+
 
   .cardheadingHome {
     margin: 20px;
@@ -609,9 +604,6 @@ span.shortSapn {
 
   .cardheadingHome {
     margin: 20px;
-  }
-  .iframe-container {
-    width: 90% !important;
   }
 }
 
@@ -707,7 +699,7 @@ span.shortSapn {
   }
 
   .iframe-container iframe {
-    width: 80%;
+    width: 90%;
     height: 60vh;
   }
 
@@ -777,7 +769,7 @@ span.shortSapn {
   }
 
   .iframe-container iframe {
-    width: 80%;
+    width: 90%;
     height: 65vh;
   }
 }
@@ -831,7 +823,7 @@ span.shortSapn {
   }
 
   .iframe-container iframe {
-    width: 80%;
+    width: 90%;
     height: 70vh;
   }
 }
@@ -870,7 +862,7 @@ span.shortSapn {
   }
 
   .iframe-container iframe {
-    width: 80%;
+    width: 90%;
     height: 70vh;
   }
 }
