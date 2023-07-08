@@ -12,7 +12,7 @@
   height: 70vh;
   overflow: hidden;
   /* object-fit: contain; */
-/* } */ */
+/* } */
 .header.Name.active {
   display: none;
 }
