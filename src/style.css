@@ -211,7 +211,9 @@
   align-items: center;
   gap: 10px;
 }
-
+.carousel-item img.d-block.w-100 {
+  object-position: center -10px;
+}
 .workcardcantainer.home .card {
   display: flex;
   justify-content: center;
@@ -727,6 +729,7 @@ span.shortSapn {
   .navmenu ul li a:active {
     border: 1px solid #ffff;
   }
+
 }
 
 @media (min-width: 870px) {
