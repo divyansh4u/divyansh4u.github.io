@@ -10,17 +10,21 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
 </head>
 
 <body>
   <div class="navbar">
     <div class="header Name">
       <div class="profileCantainer">
-        <a href="/#about"><img src="./lokeshgeedker.png" alt=""></a>
+        <a href="/#about"><img data-aos="fade-right" src="./lokeshgeedker.png" alt=""></a>
       </div>
       <a href="/#about">
-        <h1>lokesh geedkar</h1>
+        <h1 data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="2000">lokesh geedkar</h1>
       </a>
     </div>
 
@@ -83,7 +87,7 @@
   </div>
 
   <section id="About" class="AboutSection">
-    <div class="Aboutcantainer">
+    <div id="typing-text" class="Aboutcantainer typing">
       <p>
         " मैं सामाजिक कार्यकर्ता
         <span class="glowText">लोकेश गीदकर</span> हूँ। मेरा उद्देश्य समाज में
@@ -99,63 +103,68 @@
     <div class="workCantainer">
       <h2 class="heading">work</h2>
       <div class="workcardcantainer home">
+        <a href="./post/tiranga.html"> 
+          <div data-aos="fade-down-right" data-aos-duration="1200" class="card">
+            <img src="./iamge/tiranga.png" alt="" />
+          </div>
+        </a>
         <a href="./post/2acre_yojna.html"> 
-          <div class="card">
+          <div data-aos="fade-down-left" data-aos-duration="1200" class="card">
             <img src="./iamge/2acre_yojna.jpg" alt="" />
           </div>
         </a>
         <a href="./post/tapti_janmotsav.html"> 
-          <div class="card">
+          <div data-aos="fade-down-right" data-aos-duration="1200" class="card">
             <img src="./iamge/tapti_janmotsav.webp" alt="" />
           </div>
         </a>
         <a href="./post/police.html"> 
-          <div class="card">
+          <div data-aos="fade-down-left" data-aos-duration="1200"class="card">
             <img src="./iamge/2police.jpeg" alt="" />
           </div>
         </a>
         <a href="./post/abm.html"> 
-          <div class="card">
+          <div data-aos="fade-down-right" data-aos-duration="1200" class="card">
             <img src="./iamge/abm.jpeg" alt="" />
           </div>
         </a>
         <a href="./post/hanuman.html"> 
-          <div class="card">
+          <div data-aos="fade-down-left" data-aos-duration="1200"class="card">
             <img src="./iamge/hanuman.jpeg" alt="" />
           </div>
         </a>
         <a href="./post/pattanpat.html"> 
-          <div class="card">
+          <div  data-aos="fade-down-right" data-aos-duration="1200" class="card">
             <img src="./iamge/PAT.png" alt="" />
           </div>
         </a>
         <a href="./post/patrkar.html"> 
-          <div class="card">
+          <div data-aos="fade-down-left" data-aos-duration="1200"class="card">
             <img src="./iamge/patrkar.jpeg" alt="" />
           </div>
         </a>
         <a href="./post/26jan.html"> 
-          <div class="card">
+          <div data-aos="fade-down-right" data-aos-duration="1200" class="card">
             <img src="./iamge/26 JAN.png" alt="" />
           </div>
         </a>
         <a href="./post/kishanamandir.html"> 
-          <div class="card">
+          <div data-aos="fade-down-left" data-aos-duration="1200"class="card">
             <img src="./iamge/radha.jpeg" alt="" />
           </div>
         </a>
         <a href="./post/safai.html"> 
-          <div class="card">
+          <div data-aos="fade-down-right" data-aos-duration="1200" class="card">
             <img src="./iamge/safai.jpeg" alt="" />
           </div>
         </a>
         <a href="./post/shivaji.html"> 
-          <div class="card">
+          <div data-aos="fade-down-left" data-aos-duration="1200"class="card">
             <img src="./iamge/SHIVAJI JAYANTI.jpg" alt="" />
           </div>
         </a>
         <a href="./post/tapti.html"> 
-          <div class="card">
+          <div data-aos="zoom-in" class="card">
             <img src="./iamge/tapti yatra.jpeg" alt="" />
           </div>
         </a>
@@ -167,7 +176,30 @@
   <section class="post">
     <h2 class="heading">work</h2>
     <div class="postcardCantainer">
-      <div class="card">
+
+
+
+      <div data-aos="zoom-in-down" data-aos-duration="1000" class="card">
+        <div class="cardheadingHome">
+          <h2>
+            जिले का सबसे ऊंचा राष्ट्रीय ध्वज
+          </h2>
+        </div>
+        <div class="imgCantainer">
+          <img src="./iamge/tiranga.png" alt="" />
+        </div>
+        <div class="shorDescription">
+          <span class="shortSapn">
+            मध्य प्रदेश के बैतूल जिले में मुलताई,स्थित है और यहाँ जिले का सबसे ऊंचा राष्ट्रीय ध्वज शान से लहरा रहा है।इस ध्वज का
+             लगना एक गर्व का संकेत है सभी नगर एवं तहसील वासीओ के लिये।
+          </span>
+          <a href="./post/tiranga.html"><span class="readMore">more...</span></a>
+        </div>
+      </div>
+
+
+
+      <div data-aos="zoom-in-down" data-aos-duration="1000" class="card">
         <div class="cardheadingHome">
           <h2>
             माँ ताप्ती शुद्ध जल वितरण
@@ -190,7 +222,7 @@
           <a href="./post/tapti_janmotsav.html"><span class="readMore">more...</span></a>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in-down" data-aos-duration="1000" class="card">
         <div class="cardheadingHome">
           <h2>
             निःशुल्क दो एक्ड योजना
@@ -210,7 +242,7 @@
           <a href="./post/2acre_yojna.html"><span class="readMore">more...</span></a>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in-down" data-aos-duration="1000" class="card">
         <div class="cardheadingHome">
           <h2>
             राधा कृष्ण मंदिर जीर्णोध्दार
@@ -229,7 +261,7 @@
           <a href="./post/kishanamandir.html"><span class="readMore">more...</span></a>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in-down" data-aos-duration="1000" class="card">
         <div class="cardheadingHome">
           <h2>
             ABM CUP 2022
@@ -248,7 +280,7 @@
           <a href="./post/abm.html"><span class="readMore">more...</span></a>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in-down" data-aos-duration="1000" class="card">
         <div class="cardheadingHome">
           <h2>
             छत्रपति शिवाजी महाराज
@@ -265,7 +297,7 @@
           <a href="./post/shivaji.html"><span class="readMore">more...</span></a>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in-down" data-aos-duration="1000" class="card">
         <div class="cardheadingHome">
           <h2>
             ताप्ती पदयात्रा
@@ -281,7 +313,7 @@
           <a href="./post/tapti.html"><span class="readMore">more...</span></a>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in-down" data-aos-duration="1000" class="card">
         <div class="cardheadingHome">
           <h2>
             गणतंत्र दिवस
@@ -298,7 +330,7 @@
           <a href="./post/26jan.html"><span class="readMore">more...</span></a>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in-down" data-aos-duration="1000" class="card">
         <div class="cardheadingHome">
           <h2>
             पट्टन पट प्रतियोगिता
@@ -315,7 +347,7 @@
           <a href="./post/pattanpat.html"><span class="readMore">more...</span></a>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in-down" data-aos-duration="1000" class="card">
         <div class="cardheadingHome">
           <h2>
             हनुमान जन्ममहोत्सव
@@ -332,7 +364,7 @@
           <a href="./post/hanuman.html"><span class="readMore">more...</span></a>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in-down" data-aos-duration="1000" class="card">
         <div class="cardheadingHome">
           <h2>
             पत्रकारिता सम्मान समारोह
@@ -356,7 +388,7 @@
           <a href="./post/patrkar.html"><span class="readMore">more...</span></a>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in-down" data-aos-duration="1000" class="card">
         <div class="cardheadingHome">
           <h2>
             सफाईकर्मीय सम्मान समारोह
@@ -384,7 +416,7 @@
           <a href="./post/safai.html"><span class="readMore">more...</span></a>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in-down" data-aos-duration="1000" class="card">
         <div class="cardheadingHome">
           <h2>
             पुलिस सम्मान 
@@ -424,7 +456,8 @@
     <div class="upcomingheader">
       <h2>upcoming...</h2>
     </div>
-    <div class="container">
+    <div class="container" data-aos="fade-up"
+    data-aos-duration="3000">
       <div class="card-slider">
         <div class="bottomslider">
           <div class="bottomsliderImgCantainer">
@@ -482,6 +515,10 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <script src="./script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script>
     $(document).ready(function ($) {
       $(".card-slider").slick({
@@ -562,6 +599,25 @@
       });
     });
   </script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const textElement = document.getElementById("typing-text");
+    const text = textElement.innerText.trim();
+    textElement.innerText = "";
+
+    function typeText(index) {
+        if (index < text.length) {
+            textElement.innerHTML += text.charAt(index);
+            setTimeout(function() {
+                typeText(index + 1);
+            }, 50); // Adjust the typing speed (milliseconds per character) as needed
+        }
+    }
+
+    // Start the typing effect
+    typeText(0);
+});
+</script>
 </body>
 
 </html>
