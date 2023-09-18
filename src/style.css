@@ -233,6 +233,7 @@
   margin: 10px;
   height: 90%;
   width: 90%;
+  object-fit: cover;
 }
 .workcardcantainer.home .card img:focus,
 .workcardcantainer.home .card img:hover {
@@ -240,7 +241,11 @@
   transform: scale(1.1);
 }
 span.shortSapn {
-  white-space: nowrap;
+  display: -webkit-box;
+  -webkit-line-clamp: 13;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  /* white-space: nowrap; */
   overflow: hidden;
 }
 
@@ -250,6 +255,16 @@ span.shortSapn {
   margin: 20px;
 }
 
+.imgCantainer > img {
+  height: 60vh;
+}
+.imgCantainer img {
+  width: 54vw !important;
+}
+.fullCardDetails {
+  display: flex;
+  justify-content: space-between;
+}
 .postcardCantainer .card {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -429,6 +444,83 @@ span.shortSapn {
   font-size: 22px;
 }
 
+/* visionCard */
+.visionMainContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.visionSapn {
+}
+.visionMainContainer > div {
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 20px; */
+  row-gap: 5rem;
+  margin-bottom: 5rem;
+}
+.visionCard {
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px #ccc;
+  transition: all 0.5s;
+}
+.visionCard img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+}
+.visionDescription {
+  margin-top: 20px;
+}
+
+.visionSapn {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  /* white-space: nowrap; */
+  overflow: hidden;
+}
+
+@media (max-width: 642px) {
+  .visionMainContainer > div{
+    row-gap: 1rem;
+    margin-bottom: 3rem;
+  }
+  .visionCard {
+    width: 95vw;
+    display: flex;
+    column-gap: 20px;
+  }
+  .visionCard img {
+    width: 150px;
+    height: 150px;
+  }
+  .visionSapn {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    overflow: hidden;
+  }
+}
+@media (max-width: 450px) {
+  .visionCard {
+    width: 100%;
+    display: flex;
+    column-gap: 20px;
+  }
+  .visionCard img {
+    width: 150px;
+    height: 150px;
+  }
+}
 @media (max-width: 350px) {
   .workcardcantainer.home {
     margin: 10px 0 20px 0;
@@ -729,7 +821,6 @@ span.shortSapn {
   .navmenu ul li a:active {
     border: 1px solid #ffff;
   }
-
 }
 
 @media (min-width: 870px) {
@@ -739,6 +830,22 @@ span.shortSapn {
   }
 }
 
+@media (max-width: 750px) {
+  .fullCardDetails {
+    display: block;
+  }
+  .imgCantainer > img {
+    width: 100% !important;
+  }
+  span.shortSapn {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    overflow: hidden;
+  }
+}
 @media (min-width: 1024px) {
   .carousel-item img.d-block.w-100 {
     height: 450px;
