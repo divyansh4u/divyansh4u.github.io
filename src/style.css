@@ -488,9 +488,12 @@ span.shortSapn {
 }
 
 @media (max-width: 642px) {
-  .visionMainContainer > div{
+  .visionMainContainer > div {
     row-gap: 1rem;
     margin-bottom: 3rem;
+  }
+  .imgCantainer > img {
+    height: 40vh;
   }
   .visionCard {
     width: 95vw;
@@ -519,6 +522,9 @@ span.shortSapn {
   .visionCard img {
     width: 150px;
     height: 150px;
+  }
+  .imgCantainer > img {
+    height: 40vh;
   }
 }
 @media (max-width: 350px) {
@@ -844,6 +850,9 @@ span.shortSapn {
     overflow: hidden;
     /* white-space: nowrap; */
     overflow: hidden;
+  }
+  .imgCantainer > img {
+    height: 40vh !important;
   }
 }
 @media (min-width: 1024px) {
